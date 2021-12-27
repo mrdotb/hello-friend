@@ -1,20 +1,15 @@
 <footer class="footer">
   <div class="footer__inner">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
-      {{ else }}
-      {{ partial "logo.html" . }}
-      <div class="copyright">
-        <span
-          >© {{ now.Year }} Powered by
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
-        >
-        <span
-          >Theme created by
-          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
-        >
-      </div>
-    {{ end }}
+    <div class="copyright">
+      <span
+        >© {{ $.Site.Copyright }} {{ now.Year }} Powered by
+        <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+      >
+      <span
+        >Theme created by
+        <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+      >
+    </div>
   </div>
 </footer>
 
