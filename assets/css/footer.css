@@ -48,4 +48,13 @@
       margin-top: 10px;
     }
   }
+
+  .socials {
+    display: flex;
+    svg {
+      width: 20px;
+      margin-left: 15px;
+    }
+  }
+
 }
