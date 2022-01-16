@@ -51,6 +51,9 @@
 
   .socials {
     display: flex;
+    @media (--tablet) {
+      margin-top: 10px;
+    }
     svg {
       width: 20px;
       margin-left: 15px;
