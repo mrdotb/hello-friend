@@ -47,7 +47,6 @@
   &-profile {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-items: center;
 
     &-img {
