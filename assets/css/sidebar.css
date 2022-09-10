@@ -1,0 +1,93 @@
+.sidebar {
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  text-align: left;
+  @media (--phone) {
+    display: none;
+  }
+  > div {
+    padding: 10px;
+  }
+  > div:not(:last-of-type) {
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+.about-small {
+  img {
+    border-radius: 5px;
+    width: 100%;
+    transition: filter 0.4s ease-in-out;
+
+    &:hover {
+      filter: invert(100%);
+    }
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    @media (--tablet) {
+      margin-top: 10px;
+    }
+    svg {
+      width: 20px;
+      margin-left: 15px;
+    }
+  }
+}
+.work {
+  ol {
+    margin-left: 0;
+    list-style-type: none;
+  }
+  .company {
+    display: flex;
+    align-items: center;
+    &:not(:first-of-type) {
+      margin-top: 10px;
+    }
+  }
+  .company-link a {
+    color: white;
+    text-decoration: none;
+  }
+  .company-logo {
+    svg {
+      width: 40px;
+    }
+    img {
+      width: 40px;
+    }
+  }
+  .company-block {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .company-job {
+    font-size: 15px;
+  }
+  .company-time {
+    font-size: 13px;
+  }
+  .resume {
+    margin: 20px 10px 0;
+  }
+  .resume-btn {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #bf933c;
+    svg {
+      margin-left: 5px;
+      width: 18px;
+    }
+  }
+}

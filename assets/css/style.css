@@ -8,10 +8,9 @@
 @import 'menu.css';
 @import 'main.css';
 @import 'post.css';
-@import 'about.css';
-@import 'contact.css';
 @import 'pagination.css';
 @import 'footer.css';
+@import 'sidebar.css';
 
 @import 'terms.css';
 @import 'archive.css';
