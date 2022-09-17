@@ -49,10 +49,6 @@
       margin-top: 10px;
     }
   }
-  .company-link a {
-    color: white;
-    text-decoration: none;
-  }
   .company-logo {
     svg {
       width: 40px;
@@ -86,7 +82,7 @@
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
-    background-color: #bf933c;
+    background-color: var(--gold-color);
     svg {
       margin-left: 5px;
       width: 18px;

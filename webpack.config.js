@@ -12,7 +12,11 @@ module.exports = (env, { mode }) => ({
     modules: ["assets", "node_modules"],
   },
   entry: {
-    main: [join("assets", "js", "menu.js"), join("assets", "js", "theme.js")],
+    main: [
+      join("assets", "js", "menu.js"),
+      join("assets", "js", "theme.js"),
+      join("assets", "js", "newsletter.js")
+    ],
     prism: join("assets", "js", "prism.js"),
     style: join("assets", "css", "style.css"),
   },

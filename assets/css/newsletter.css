@@ -1,0 +1,43 @@
+.newsletter {
+  background: var(--background-secondary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  .description, .result {
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--color);
+  }
+  form {
+    box-sizing:border-box;
+    text-align: center;
+  }
+  input[type="email"] {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 16px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    transition: .1s;
+    &:focus {
+      box-shadow: 0 0 2px 2px var(--gold-color);
+    }
+  }
+  .submit-btn{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--gold-color);
+  }
+}
