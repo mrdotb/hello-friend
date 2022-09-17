@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode=development --watch",
-    "build": "webpack --mode=production",
-    "prepare": "husky install"
+    "build": "webpack --mode=production"
   },
   "browserslist": [
     "last 2 versions",
@@ -32,7 +31,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "file-loader": "^6.1.0",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^7.0.4",
     "mini-css-extract-plugin": "^2.4.3",
     "postcss": "^8.2.10",
     "postcss-browser-reporter": "^0.6.0",
@@ -53,10 +51,5 @@
     "url-loader": "^4.1.0",
     "webpack": "^5.27.1",
     "webpack-cli": "^4.5.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run build && git add . && git commit -v"
-    }
   }
 }
