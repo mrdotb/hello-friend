@@ -1,0 +1,5 @@
+{{ if .Get "src" }}
+  <a class="lightbox" href="{{ .Get "src" | safeURL }}">
+    <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} />
+  </a>
+{{ end }}

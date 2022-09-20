@@ -22,6 +22,7 @@ module.exports = (env, options) => {
         join("assets", "js", "newsletter.js")
       ],
       prism: join("assets", "js", "prism.js"),
+      lightbox: join("assets", "js", "lightbox.js"),
       style: join("assets", "css", "style.css"),
     },
     output: {
