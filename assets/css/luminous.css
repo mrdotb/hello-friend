@@ -255,7 +255,7 @@
 .lum-lightbox-image-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  overflow-y: auto;
 }
 
 /* This media query makes screens less than 460px wide display in a "fullscreen"-esque mode. Users can then scroll around inside the lightbox to see the entire image. */
